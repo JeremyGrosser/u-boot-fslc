@@ -1,0 +1,15 @@
+if TARGET_MX50KOBO
+
+config SYS_BOARD
+	default "mx50kobo"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_SOC
+	default "mx5"
+
+config SYS_CONFIG_NAME
+	default "mx50kobo"
+
+endif

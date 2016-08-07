@@ -1,0 +1,5 @@
+CONFIG_ARM=y
+CONFIG_TARGET_MX50KOBO=y
+CONFIG_SYS_EXTRA_OPTIONS="IMX_CONFIG=board/freescale/mx50kobo/imximage.cfg"
+# CONFIG_CMD_IMLS is not set
+# CONFIG_CMD_SETEXPR is not set

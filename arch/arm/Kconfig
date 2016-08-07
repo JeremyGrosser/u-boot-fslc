@@ -530,6 +530,10 @@ config TARGET_M53EVK
 	select CPU_V7
 	select SUPPORT_SPL
 
+config TARGET_MX50KOBO
+	bool "Support mx50kobo"
+	select CPU_V7
+
 config TARGET_MX51EVK
 	bool "Support mx51evk"
 	select CPU_V7
